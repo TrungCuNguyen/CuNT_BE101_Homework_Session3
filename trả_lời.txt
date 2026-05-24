@@ -1,0 +1,15 @@
+- Thực thể, thuộc tính:
+Khách hàng: mã khách hàng,họ tên, email, số điện thoại, địa chỉ
+Sản phẩm: mã sản phẩm, tên, giá, loại sản phẩm, thông tin sản phẩm
+Đơn hàng: mã đơn, ngày tạo, tổng tiền, trạng thái đơn
+Chi tiết đơn hàng: mã sản phẩm, mã đơn, số lượng, đơn giá
+
+- Mối quan hệ:
+Khách hàng mua nhiều đơn hàng 
+Đơn hàng được mua bởi 1 khách hàng
+1 Đơn hàng có nhiều chi tiết đơn hàng
+1 chi tiết đơn hàng thuộc 1 Đơn hàng 
+1 chi tiết đơn hàng có 1 loại sản phẩm
+1 loại sản phẩm có thể nằm trong nhiều chi tiết đơn hàng khác nhau
+
+Khóa chính và kiểu liên kết giữa các thực thể nằm trong sơ đồ ERD
