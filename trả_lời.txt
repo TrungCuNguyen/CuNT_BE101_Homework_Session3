@@ -1,0 +1,17 @@
+Học viên: student_id, student_name, email, subscribe_date
+Giảng viên: intructor_id, intructor_name, major, intructor_phone
+Khóa học: course_id, course_name, description, course_fee
+Lớp học: class_section_id, class_section_time, intructor_id, course_id
+
+Mối quan hệ
+Học viên học nhiều Lớp học
+Lớp học có nhiều học viên theo học
+Lớp học thuộc 1 khóa học
+1 khóa học có nhiều lớp học
+giảng viên dạy nhiều lớp học
+Lớp học có 1 Giảng viên dạy
+
+Kiểu liên kết: 
+Học viên - Lớp học: N-N
+Khóa học - Lớp học: 1-N
+Giảng viên - Lớp học: 1-N
