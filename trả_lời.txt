@@ -1,0 +1,11 @@
+- Mối quan hệ
+Sinh viên học nhiều Lớp học phần
+Lớp học phần có nhiều sinh viên theo học
+Lớp học phần thuộc 1 môn học
+1 môn học có nhiều lớp học phần
+giảng viên dạy nhiều lớp học phần
+Lớp học phần có 1 giáo viên dạy
+- Kiểu liên kết: 
+Sinh viên - Lớp học phần: N-N
+Môn học - Lớp học phần: 1-N
+Giảng viên - Lớp học phần: 1 - N
