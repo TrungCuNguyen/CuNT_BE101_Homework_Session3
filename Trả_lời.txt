@@ -1,0 +1,4 @@
+Thực thể chính, thuộc tính, khóa chính là:
+Sách: tên sách, mã ISBN, tác giả, năm xuất bản, thể loại - Khóa chính: mã ISBN
+Độc giả: mã độc giả, họ tên, ngày sinh, địa chỉ, số điện thoại - Khóa chính: mã độc giả
+Phiếu mượn sách: mã phiếu, ngày mượn, ngày trả dự kiến, trạng thái - Khóa chính: mã phiếu
