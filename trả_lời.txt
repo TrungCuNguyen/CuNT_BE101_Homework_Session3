@@ -1,0 +1,4 @@
+Bệnh nhân: patient_id, patient-name, patient_age, patient_address, patient_phone
+Bác sĩ: doctor_id, doctor_name, major
+Khoa: department_id, department_name, description
+Hồ sơ khám bệnh: medical_file_id, file_description, file_title, appointment_date, result
